@@ -1,0 +1,92 @@
+/* Basisopmaak voor body en reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Fullscreen header */
+.fullscreen-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5A5DFF;
+    text-align: center;
+    position: relative;
+}
+
+/* Top navigatie */
+.top-nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-family: 'Jua', sans-serif;
+    font-size: 50px;
+}
+
+.top-nav a {
+    margin-right: 40px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* Rechts navigatie */
+
+.top-nav-right {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-family: 'Jua', sans-serif;
+    font-size: 50px;
+}
+
+.top-nav-right a {
+    color: white;
+    text-decoration: none;
+    
+}
+
+/* Center content */
+.center-content h1 {
+    font-size: 350px;
+    margin-bottom: 10px;
+    font-family: 'Angkor', sans-serif;
+    color: white;
+}
+
+.center-content p {
+    font-size: 60px;
+    font-family: 'Jua';
+    color: white;
+
+}
+.center-content p2 {
+    font-size: 60px;
+    font-family: 'Jua';
+    color: white;
+}
+
+/* Content sectie */
+.content-section {
+    background-color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+.content-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
