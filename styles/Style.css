@@ -1,4 +1,4 @@
-/* Basisopmaak voor body en reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -9,7 +9,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Fullscreen header */
+
 .fullscreen-header {
     display: flex;
     flex-direction: column;
@@ -21,7 +21,7 @@ body {
     position: relative;
 }
 
-/* Top navigatie */
+
 .top-nav {
     position: absolute;
     top: 20px;
@@ -37,7 +37,6 @@ body {
     
 }
 
-/* Rechts navigatie */
 
 .top-nav-right {
     position: absolute;
@@ -59,7 +58,7 @@ body {
     text-align: center;
     margin-top: 100px;
 }
-/* Center content */
+
 .center-content h1 {
     font-size: 280px;
     font-family: 'Angkor', sans-serif;
@@ -80,7 +79,7 @@ body {
     
 }
 
-/* Content sectie */
+
 .content-section {
     background-color: white;
     padding: 1px;
@@ -146,7 +145,6 @@ left: 1500px;
 }
 
 
-/* Basisopmaak voor body en reset */
 * {
     margin: 0;
     padding: 0;
@@ -157,7 +155,7 @@ body {
     font-family: Arial, sans-serif;
 }
 
-/* Fullscreen header */
+
 .fullscreen-header {
     display: flex;
     flex-direction: column;
@@ -169,7 +167,7 @@ body {
     position: relative;
 }
 
-/* Top navigatie */
+
 .top-nav {
     position: absolute;
     top: 20px;
@@ -185,7 +183,7 @@ body {
     
 }
 
-/* Rechts navigatie */
+
 
 .top-nav-right {
     position: absolute;
@@ -207,7 +205,7 @@ body {
     text-align: center;
     margin-top: 100px;
 }
-/* Center content */
+
 .center-content h1 {
     font-size: 280px;
     font-family: 'Angkor', sans-serif;
@@ -371,7 +369,7 @@ max-width: 39%;
 }
 
 .fullscreen-services {
-    background-color: #282830; /* Donkergrijze achtergrond */
+    background-color: #282830; 
     height: 100vh;           
     display: flex;
     flex-direction: column;
@@ -389,26 +387,25 @@ max-width: 39%;
     margin-top: 50px;
 }
 
-/* Service lijst in kolom opstelling */
+
 .service-list {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 50px; /* Ruimte tussen de items */
+    gap: 50px; 
     margin-top: 150px;
 }
 
-/* Stijl voor de service items */
+
 .service-item {
     font-size: 80px;
     font-family: 'Arsenal', sans-serif;
     font-weight: 800;
     font-style: italic;
-    color: #4e4e4e; /* Donkergrijze kleur voor tekst */
-    transition: color 0.3s ease; /* Zachte overgang bij hover */
+    color: #4e4e4e; 
+    transition: color 0.3s ease; 
 }
 
-/* Zigzag uitlijning */
 .item1 {
     transform: translateX(-60px); 
 }
@@ -425,44 +422,43 @@ max-width: 39%;
     transform: translateX(60px); 
 }
 
-/* Hover effect om de tekst wit te maken */
+
 .service-item:hover {
     color: white;
 }
 
-/* Vectorafbeeldingen rond de service items */
 .vectors-services {
     position: relative;
 }
 
 .vector {
     position: absolute;
-    width: 100px; /* Aanpassen op basis van voorkeur */
+    width: 100px; 
     height: auto;
     opacity: 0.8;
 }
 
-/* Specifieke posities voor elke vector */
+
 .clover3-img {
-    top: 300px;    /* Aanpassing om achter "Brand Identity" te positioneren */
+    top: 300px;  
     left: -100px;
     z-index: 1;
 }
 
 .ellipse3-img {
-    top: 430px;    /* Aanpassing om voor "Web Design" te positioneren */
+    top: 430px;    
     right: -90px;
     z-index: 3;
 }
 
 .diamond2-img {
-    top: 560px;    /* Aanpassing om achter "Video Editing" te positioneren */
+    top: 560px;    
     left: -100px;
     z-index: 1;
 }
 
 .diamond3-img {
-    top: 690px;    /* Aanpassing om achter "Illustration" te positioneren */
+    top: 690px;  
     right: -90px;
     z-index: 1;
 }
