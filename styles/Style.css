@@ -332,7 +332,6 @@ left: 1500px;
 .content-section {
     background-color: white;
     padding: 1px;
-    text-align: left;
     margin-left: 50px;
     margin-top: 50px;
 }
@@ -350,11 +349,17 @@ left: 1500px;
     font-size: 60px;
 }
 
+.content-section h2 {
+    font-size: 2em;
+    text-align: left;
+}
+
 .intro-text {
     font-size: 30px;         
     font-family: 'Arsenal', sans-serif; 
     font-style: italic;
 max-width: 39%;
+text-align: left;
 }
 
 .imgProjects {
@@ -366,6 +371,11 @@ max-width: 39%;
 
 .healthcare {
     margin-bottom: 50px;
+}
+
+.nasmakdev {
+    border-radius: 50px;
+    margin-top: 50px;
 }
 
 .imgProjects img {
@@ -405,12 +415,13 @@ max-width: 39%;
 }
 
 
+
 .service-list {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 50px; 
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .service-item {
