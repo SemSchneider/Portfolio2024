@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-left: 50px;
+    font-family: 'Arsenal', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    
+}
+
+/* Headers styling */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Angkor', sans-serif;
+    margin: 0;
+    line-height: 1.2;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Arsenal', sans-serif;
+    margin: 0;
+    line-height: 1.2;
+    font-weight: 600;
+    width: 700px;
+}
+
+h1 {
+    font-size: 2.25rem;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 18px;
+}
+
+h3 {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+h4 {
+    font-size: 1.0rem;
+    margin-bottom: 12px;
+}
+
+h5 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+}
+
+h6 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+/* Paragraaf styling */
+p {
+    font-family: 'Arsenal', sans-serif;
+    font-size: 1.25rem;
+    margin: 0 0 15px 0;
+    line-height: 1.6;
+    width: 700px;
+}
+
+/* Container styling (voor consistentie) */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Algemene styling voor secties */
+section {
+    margin-bottom: 40px;
+}
+
+/* Link styling */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    font-size: 0.9rem;
+}
+
+#table-of-contents {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+}
+
+#table-of-contents h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: black;
+}
+
+
+
+
+#table-of-contents ul {
+    list-style: none;
+    padding: 0;
+}
+
+#table-of-contents li {
+    margin: 5px 0;
+}
+
+#table-of-contents a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+#table-of-contents a:hover {
+    text-decoration: underline;
+}
