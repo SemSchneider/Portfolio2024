@@ -22,7 +22,7 @@ h2, h3, h4, h5, h6 {
     font-family: 'Arsenal', sans-serif;
     margin: 0;
     line-height: 1.2;
-    font-weight: 600;
+    font-weight: 700;
     width: 700px;
 }
 
@@ -63,6 +63,7 @@ p {
     margin: 0 0 15px 0;
     line-height: 1.6;
     width: 700px;
+    font-weight: 500;
 }
 
 /* Container styling (voor consistentie) */
