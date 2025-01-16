@@ -135,3 +135,9 @@ footer {
 #questions {
     font-weight: bold;
 }
+
+li {
+    width: 700px; 
+    margin-bottom: 10px; 
+    word-wrap: break-word; 
+  }
